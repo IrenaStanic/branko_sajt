@@ -1,0 +1,332 @@
+@media (max-width: 1022px) {
+//pismene
+.textR span{
+  font-size: medium;
+}
+  //timovi
+  .timovi{
+    padding: 5rem;
+  }
+  //parlament
+  .kalendar{
+    margin: 0;
+    padding: 1rem;
+    width: 100%;
+  }
+  .dokumenti{
+    margin: 1rem;
+    width: 97%;
+  }
+  .dokumenti span{
+    font-size:large;
+  }
+  .dokumenti button{
+    margin-left: 5rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+   }
+  //kontakt
+  .kontakt{
+    font-weight:600;
+    font-size: medium;
+    padding: 3rem;
+    margin: 1rem;
+    opacity: 0.9;
+  }
+  .googleMap iframe{
+    width: 33rem;
+  }
+}
+@media (max-width: 992px) {
+   #meni{
+    display: block;
+   }
+}
+@media (max-width: 768px) {
+    // smanjenje kartica
+    #meni{
+      display: block;
+    }
+    .textSlida{
+      display: block;
+      background-color: white;
+    padding: 1rem 0.8rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+    }
+    .kontejnerSlida{
+      padding: 2rem 0;
+      width: 80%;
+     }
+    .kalendar{
+      padding: 3rem;
+    }
+    //takmicenja
+    .takmicenja{
+      grid-template-columns: auto auto auto;
+      gap: 1rem; 
+    }
+    .carts{
+      width: 40%;
+    }
+    //biblioteka
+    .slikeBiblioteka{
+      display: none;
+    }
+    .kontejnerSlidaMiniVerzija{
+      display: block;
+      max-height: 25rem;
+      width: 35rem;
+    }
+    .dokumenti{
+      margin: 1rem;
+      padding: 0 0.5rem;
+      width: 95%;
+      border-top-left-radius: 0.5rem;
+    }
+    //zubar
+    .zubar{
+      width: 90%;
+    }
+    .slikeZubar img{
+      width: 50%;
+    }
+    //dopisi inistarstva
+    .dokumenti span{
+      font-size:medium;
+      padding: 1.2rem 0;
+    }
+    //raspored casova
+    .raspored img{
+      width: 100%;
+    }
+    .raspored{
+      padding: 1rem;
+    }
+    .raspored span{
+     font-size: medium;
+     font-weight: 400;
+    }
+    .casovi span{
+      width: 50%;
+    }
+    //timovi
+    .timovi{
+      padding: 1rem;
+    }
+    .slikeZubar{
+      display: none;
+    }
+    .kontejnerSlidaMiniVerzija{
+      display: block;
+      max-height: 35rem;
+      width: 35rem;
+    }
+    .kontakt{
+      text-align: center;
+      font-weight:400;
+      font-size: medium;
+      background-color: white;
+      padding:0;
+      margin: 0.5rem;
+      opacity: 0.9;
+    }
+    .googleMap iframe{
+      width: 30rem;
+    }
+}
+@media (max-width: 600px) {
+  //home
+  .container1 {
+        display: flex;
+        margin: 0 auto;
+      }
+  .aktivnosti{
+        grid-template-columns: 90%;
+        height: auto;
+      }
+      #meni{
+        display: block;
+      }
+  .cartica{
+         margin-left: 15%;
+  }    
+  .address{
+    display: none;
+   }
+   .kontejnerSlida{
+    padding: 0;
+    width: 80%;
+   }
+   //slika dokumenta parlamenta
+   .kalendar{
+    margin: 0;
+    padding: 0 0.5rem;
+    width: 100%;
+  }
+  .dokumenti{
+    margin: 1rem;
+    padding: 0 0.5rem;
+    width: 95%;
+    border-top-left-radius: 0.5rem;
+  }
+  .dokumenti span{
+    font-size:small;
+    padding: 0.5rem 0;
+  }
+  .dokumenti button{
+   margin-left: 1rem;
+   font-size: small;
+   margin-top: 0.1rem;
+   padding: 0.3rem;
+  }
+  //istorijat
+  .textIstorijat h5{
+    font-weight:400;
+  }
+  .textIstorijat{
+    width: 90%;
+  }
+  //takmicenja
+  .takmicenja{
+    grid-template-columns: auto auto;
+    gap: 1rem; 
+  }
+  .carts{
+    width: 50%;
+  }
+  //biblioteka
+  .slikeBiblioteka, .slikeZubar{
+    display: none;
+  }
+  .kontejnerSlidaMiniVerzija{
+    max-height: 25rem;
+    width: 25rem;
+  }
+//stomatolog
+.zubar{
+  width: 90%;
+}
+.slikeZubarMiniVerzija{
+  display: block;
+}
+.slikeZubarMiniVerzija img{
+  max-width: 50%;
+  margin: 1rem;
+ max-height: 20rem;
+}
+//kontakt
+.kontejnerDokumenata1{
+  // display: flex;
+}
+.kontakt{
+  text-align: center;
+  font-weight:400;
+  font-size: medium;
+  background-color: white;
+  padding:0;
+  margin: 0.5rem;
+  opacity: 0.9;
+}
+.googleMap iframe{
+  width: 25rem;
+}
+//raspored kontrolnih
+.textR{
+  padding: 1rem;
+  grid-template-columns: auto;
+}
+//opstinsko biologija
+.izbaci{
+  display: none;
+}
+//izrada stranice
+.stranicaUizradi img{
+  width: 100%;
+}
+}
+@media (max-width: 425px){
+//takmicenja
+.textR{
+  padding: 0.5rem;
+}
+.textR span{
+  font-size: smaller;
+  padding: 0.3rem;
+}
+//takmicenja
+.takmicenja{
+  grid-template-columns: auto;
+  gap: 1rem; 
+}
+.carts{
+  width: 100%;
+}
+//kontakt
+.kontakt{
+  font-weight:200;
+  font-size: small;
+  padding:0.2rem;
+}
+.googleMap iframe{
+  width: 21rem;
+}
+}
+@media (max-width: 375px){
+  //pocetna
+  .textHover {
+    margin: 0.5rem auto;
+    text-shadow: 1px 1px darkblue;
+    font-size: medium;
+  }
+  .tabelaBiologija{
+    width: 50%;
+    font-size: 0.4rem;
+    padding: 0;
+    margin: 0;
+  }
+  //biblioteka
+  .dokumenti{
+    margin: 0.5rem;
+    width: 90%;
+  }
+  .dokumenti button{
+   margin-left: 0;
+   margin-top: 0.2rem;
+  }
+  .kontejnerSlidaMiniVerzija{
+    width: 20rem;
+  }
+  .slikeZubarMiniVerzija img{
+    max-width: 90%;
+  }
+  .zubar{
+    font-size: smaller;
+  }
+  //raspored casova
+  .raspored span{
+    font-size: small;
+    font-weight: 400;
+    padding: 0.5rem;
+   }
+   .casovi span{
+     width: 65%;
+     padding: 0.5rem;
+   }
+   //pismene
+   .textR{
+    padding: 0.5rem;
+  }
+  .textR span{
+    font-size: smaller;
+    padding: 0.3rem;
+  }
+  //kontakt
+  .kontakt{
+    font-size: smaller;
+  }
+  .googleMap iframe{
+    width: 15rem;
+  }
+}
+

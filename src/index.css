@@ -1,13 +1,228 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face{
+  font-family: 'fontFace';
+  src: url('../public/Font/GreatVibes-Regular.ttf');
+}
+.container1 {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 2rem;
+  background-size:contain;
+  background-color: rgb(123, 15, 15);
+}
+.aktivnosti{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  padding: 1em;
+  gap: 2rem;
+  height: 100px;
+}
+.address {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 15px;
+  overflow: hidden;
+  padding: 1em;
+  text-align: center;
+  background-color: aliceblue;
+  opacity: 0.8;
+  margin: 1em 2rem;
+}
+#meni{
+  display: none;
+}
+.textSlida{
+  display: none;
+}
+.fontHome{
+  color: "#191970";
+  font-weight: bold;
+}
+.kalendar{
+  margin: 0 auto;
+  padding: 3rem 30%;
+  width: 100%;
+}
+.kontejner{
+  margin: 0 auto;
+  background-color: rgb(123, 15, 15);
+  padding: 0.5rem;
+}
+.kontejnerDokumenata{
+  background-color: rgb(123, 15, 15);
+  display: grid;
+
+}
+.kontejnerDokumenata1{
+  background-color: rgb(123, 15, 15);
+  display: grid;
+}
+.textR span{
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: white;
+}
+.dokumenti{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: white;
+  margin: 2rem;
+  width: 80%;
+  box-shadow: rgba(0, 0, 0, 0.35) 10px 15px 3px;
+  border-top-left-radius: 1rem;
+}
+.dokumenti span{
+  font-size:x-large;
+  color: "#191970";
+  margin-right: 1rem;
+  padding: 1rem;
+}
+.takmicenja{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 1rem;
+  background-color: rgb(123, 15, 15);
+  padding: 1rem;
+}
+.carts{
+  width: 50%;
+}
+.raspored{
+  padding: 5rem 2rem;
+  background-color: rgb(123, 15, 15);
+  display: grid;
+  grid-template-columns: auto;
+}
+.raspored img{
+  width: 70%;
+}
+.raspored span{
+  background-color: white;
+}
+.casovi{
+  display: grid;
+  grid-template-columns: auto;
+}
+.casovi span{
+  width: 30%;
+}
+.dokumenti button{
+  border-radius: 1rem;
+  margin-top: 0.8rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 5px;
+  border: none;
+  padding: 0.5rem;
+  background-color: lightgrey;
+}
+.dokumenti button:hover{
+  font-size: 90%;
+}
+.textR{
+  padding: 5rem 2rem;
+  margin: 0 auto;
+  background-color: rgb(123, 15, 15);
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+}
+.textR span, .raspored span{
+  font-size:x-large;
+  color: "#191970";
+  font-weight: bold;
+  padding: 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.timovi{
+  margin: 0 auto;
+padding: 3rem 30%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.slikeBiblioteka img{
+  width: 70%;
+  margin-left: 10%;
+  border-bottom: 10px solid #ffffff8c;
+  border-left: 10px solid rgba(255, 255, 255, 0.842);
+  border-radius: 5%;
+  margin-bottom: 1rem;
+  opacity: 1;
+}
+.slikeBiblioteka img:hover{
+  width: 30rem;
+  margin: 0 auto;
+}
+.zubar{
+  border-radius: 1rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  margin: 2rem auto;
+  width: 40%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 10px 15px 3px;
+}
+.slikeZubar img{
+  width: 60%;
+  margin-left: 20%;
+  border-bottom: 10px solid #ffffff8c;
+  border-left: 10px solid rgba(255, 255, 255, 0.842);
+  border-radius: 5%;
+  margin-bottom: 1rem;
+}
+.textHover {
+  font-family: fontFace;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  margin: 1rem auto;
+  text-shadow: 1.5px 1.5px darkblue;
+}
+.kontakt{
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  background-color: white;
+  padding: 5rem 0;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  opacity: 0.9;
+}
+.stranicaUizradi img{
+  width: 50rem;
+}
+.pocetna{
+  margin-top: 5rem;
+  margin-left: 20rem;
+  margin-right: -8rem;
+}
+.kontejnerSlida{
+ margin: 0 auto;
+ padding: 5rem 0;
+ width: 50%;
+}
+.kontejnerSlidaMiniVerzija, .slikeZubarMiniVerzija{
+  display: none;
+}
+.kontejnerSlida p{
+  font-weight: 800;
+  text-shadow: 5px 10px 5px black;
+}
+.slikaVesti{
+width: 100%;
+}
+.textIstorijat{
+  width: 70%;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  background-color: #ffffff;
+}
+.textIstorijat h5, h3{
+  font-style: italic;
+  color: black;
+  font-weight: bold;
+  
+}
+.tabela{
+  width: 80%;
+  margin: 2rem;
+  background-color: #ffffff;
+  border-top-left-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 10px 15px 3px;
 }

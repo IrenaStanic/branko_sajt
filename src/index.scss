@@ -1,0 +1,14 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin-top: 120px;
+    gap: 2rem;
+  }
+.address{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 15px;
+    overflow: hidden;
+    padding: 1.2em;
+    text-align: center;
+}
